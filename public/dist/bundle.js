@@ -13,14 +13,96 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _monitor_monitor_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./monitor/monitor.jsx */ "./public/src/components/monitor/monitor.jsx");
+
 
 
 function App() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Welcome to Stockify"));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    id: "stockify-app-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    id: "stockify-title"
+  }, "Welcome to Stockify"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_monitor_monitor_jsx__WEBPACK_IMPORTED_MODULE_1__.default, null));
 }
 
 ;
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
+
+/***/ }),
+
+/***/ "./public/src/components/monitor/add-page.jsx":
+/*!****************************************************!*\
+  !*** ./public/src/components/monitor/add-page.jsx ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+function AddPage() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    id: "add-page-container"
+  });
+}
+
+;
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AddPage);
+
+/***/ }),
+
+/***/ "./public/src/components/monitor/monitor.jsx":
+/*!***************************************************!*\
+  !*** ./public/src/components/monitor/monitor.jsx ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _add_page_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./add-page.jsx */ "./public/src/components/monitor/add-page.jsx");
+/* harmony import */ var _watchlist_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./watchlist.jsx */ "./public/src/components/monitor/watchlist.jsx");
+
+
+
+
+function Monitor() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    id: "monitor-page-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_add_page_jsx__WEBPACK_IMPORTED_MODULE_1__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_watchlist_jsx__WEBPACK_IMPORTED_MODULE_2__.default, null));
+}
+
+;
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Monitor);
+
+/***/ }),
+
+/***/ "./public/src/components/monitor/watchlist.jsx":
+/*!*****************************************************!*\
+  !*** ./public/src/components/monitor/watchlist.jsx ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+function Watchlist() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    id: "watchlist-container"
+  });
+}
+
+;
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Watchlist);
 
 /***/ }),
 

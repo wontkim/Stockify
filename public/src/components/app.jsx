@@ -1,9 +1,12 @@
 import React from 'react';
+import Monitor from './monitor/monitor.jsx';
+
 
 function App() {
     return (
-        <div>
-            <h1>Welcome to Stockify</h1>
+        <div id='stockify-app-container'>
+            <h1 id='stockify-title'>Welcome to Stockify</h1>
+            <Monitor />
         </div>
     )
 };
